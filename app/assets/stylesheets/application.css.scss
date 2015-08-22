@@ -13,11 +13,13 @@
  *= require_tree .
  *= require_self
  */
- .cuteText {
-        font-family: gotham;
-        font-size: 2em;
-        color: #829595;
-    }
-        body {
-    background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/v/t35.0-12/11928771_1207656465928149_335705460_o.jpg?oh=a6ec7d5b2d7ddeef38c7ca41f6ca7bdc&oe=55DA640D");
+
+.cuteText {
+  font-family: gotham;
+  font-size: 2em;
+  color: #829595;
+}
+
+body {
+  background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/v/t35.0-12/11928771_1207656465928149_335705460_o.jpg?oh=a6ec7d5b2d7ddeef38c7ca41f6ca7bdc&oe=55DA640D");
 }
