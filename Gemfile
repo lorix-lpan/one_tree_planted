@@ -38,6 +38,7 @@ gem 'devise'
 # Use omniauth for social media integration
 gem 'omniauth'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
