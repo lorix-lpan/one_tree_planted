@@ -37,6 +37,10 @@ gem 'devise'
 
 # Use omniauth for social media integration
 gem 'omniauth'
+gem 'omniauth-facebook'
+
+
+
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
