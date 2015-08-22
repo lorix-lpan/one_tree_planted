@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>OneTreePlanted</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-     <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<head>
+	  <title>OneTreePlanted</title>
+		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-</head>
-<body>
-<%= render 'layouts/header' %>
-<%= yield %>
+	</head>
+	<body>
+	<%= render 'layouts/header' %>
+	<div class="container">
+		<div class="row">
+			<% if notice %>
+			 <div class="alert alert-info"><%= notice %></div>
+			<% end %>
+			<% if alert %>
+			 <div class="alert alert-infox"><%= alert %></div>
+			<% end %>
+		</div>
+	</div>
+	<%= yield %>
 
-</body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
 </html>
