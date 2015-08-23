@@ -27,6 +27,11 @@ body {
 
 }
 
+h1 {
+  color: #4cae4c;
+  font-family: 'Lobster', cursive;
+}
+
 .LOL {
 	color: #4cae4c;
 	font-family: 'Lobster', cursive;
@@ -175,14 +180,15 @@ figcaption {
 figure {
     padding: 5px;
 }
-img:hover {
+
+.smaller-image:hover {
     transform: scale(1.1);
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-img {
+.smaller-image {
     transition: transform 0.2s;
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
@@ -257,10 +263,14 @@ img {
 	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
 	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
-	background-color:#5cbf2a;
+	color: #ffffff;
+  background-color:#5cbf2a;
+  text-decoration: none;
 }
 .myButton:active {
-	position:relative;
+	color: #ffffff;
+  position:relative;
+  text-decoration: none;
 	top:1px;
 }
 /*HOME END*/

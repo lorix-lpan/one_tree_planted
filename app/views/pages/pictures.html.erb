@@ -1,83 +1,93 @@
-<h1>Pages#pictures</h1>
-<p>Find me in app/views/pages/pictures.html.erb</p>
-<!-- following code is the image slide animation for picture page.-->
-<ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked />
-    <li class="slide-container">
-		<div class="slide">
-			<img src="https://s-media-cache-ak0.pinimg.com/originals/5f/1b/15/5f1b15a9d1d99257f803a0d49f2aff0a.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-6" class="prev">&#x2039;</label>
-			<label for="img-2" class="next">&#x203a;</label>
-		</div>
-    </li>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-lg-12">
 
-    <input type="radio" name="radio-btn" id="img-2" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://www.ccvsocal.com/wp-content/uploads/2013/05/Oak-Tree2.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-1" class="prev">&#x2039;</label>
-			<label for="img-3" class="next">&#x203a;</label>
-		</div>
-    </li>
+      <h1>Pictures</h1>
+      <!-- following code is the image slide animation for picture page.-->
+      <ul class="slides">
+          <input type="radio" name="radio-btn" id="img-1" checked />
+          <li class="slide-container">
+          <div class="slide">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/5f/1b/15/5f1b15a9d1d99257f803a0d49f2aff0a.jpg" />
+              </div>
+          <div class="nav">
+            <label for="img-6" class="prev">&#x2039;</label>
+            <label for="img-2" class="next">&#x203a;</label>
+          </div>
+          </li>
 
-    <input type="radio" name="radio-btn" id="img-3" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://www.vbctulsa.com/wordpress/wp-content/uploads/2015/02/wrackthetree.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-2" class="prev">&#x2039;</label>
-			<label for="img-4" class="next">&#x203a;</label>
-		</div>
-    </li>
+          <input type="radio" name="radio-btn" id="img-2" />
+          <li class="slide-container">
+              <div class="slide">
+                <img src="http://www.ccvsocal.com/wp-content/uploads/2013/05/Oak-Tree2.jpg" />
+              </div>
+          <div class="nav">
+            <label for="img-1" class="prev">&#x2039;</label>
+            <label for="img-3" class="next">&#x203a;</label>
+          </div>
+          </li>
 
-    <input type="radio" name="radio-btn" id="img-4" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="https://breadforthebride.files.wordpress.com/2014/10/dollarclubtree.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-3" class="prev">&#x2039;</label>
-			<label for="img-5" class="next">&#x203a;</label>
-		</div>
-    </li>
+          <input type="radio" name="radio-btn" id="img-3" />
+          <li class="slide-container">
+              <div class="slide">
+                <img src="http://www.vbctulsa.com/wordpress/wp-content/uploads/2015/02/wrackthetree.jpg" />
+              </div>
+          <div class="nav">
+            <label for="img-2" class="prev">&#x2039;</label>
+            <label for="img-4" class="next">&#x203a;</label>
+          </div>
+          </li>
 
-    <input type="radio" name="radio-btn" id="img-5" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://7-themes.com/data_images/out/72/7019553-tree-beach-side-wallpaper.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-4" class="prev">&#x2039;</label>
-			<label for="img-6" class="next">&#x203a;</label>
-		</div>
-    </li>
+          <input type="radio" name="radio-btn" id="img-4" />
+          <li class="slide-container">
+              <div class="slide">
+                <img src="https://breadforthebride.files.wordpress.com/2014/10/dollarclubtree.jpg" />
+              </div>
+          <div class="nav">
+            <label for="img-3" class="prev">&#x2039;</label>
+            <label for="img-5" class="next">&#x203a;</label>
+          </div>
+          </li>
 
-    <input type="radio" name="radio-btn" id="img-6" />
-    <li class="slide-container">
-        <div class="slide">
-            <img src="https://breadforthebride.files.wordpress.com/2014/10/dollarclubtree.jpg"/>
-        </div>
-		<div class="nav">
-			<label for="img-5" class="prev">&#x2039;</label>
-			<label for="img-1" class="next">&#x203a;</label>
-		</div>
-    </li>
+          <input type="radio" name="radio-btn" id="img-5" />
+          <li class="slide-container">
+              <div class="slide">
+                <img src="http://7-themes.com/data_images/out/72/7019553-tree-beach-side-wallpaper.jpg" />
+              </div>
+          <div class="nav">
+            <label for="img-4" class="prev">&#x2039;</label>
+            <label for="img-6" class="next">&#x203a;</label>
+          </div>
+          </li>
 
-    <li class="nav-dots">
-      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-    </li>
-</ul>
-<div class="text-center">
-<h2>Description</h2>
-<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h4>
+          <input type="radio" name="radio-btn" id="img-6" />
+          <li class="slide-container">
+              <div class="slide">
+                  <img src="https://breadforthebride.files.wordpress.com/2014/10/dollarclubtree.jpg"/>
+              </div>
+          <div class="nav">
+            <label for="img-5" class="prev">&#x2039;</label>
+            <label for="img-1" class="next">&#x203a;</label>
+          </div>
+          </li>
+
+          <li class="nav-dots">
+            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+            <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+          </li>
+      </ul>
+      <div class="text-center">
+      <h2>Description</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+
+
+    </div>
+  </div>
 </div>
+

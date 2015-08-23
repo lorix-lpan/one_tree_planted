@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def pictures
+  end
+
+  def stats
+  end
 end

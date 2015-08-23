@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg 12 text-center">
+			<p>
+			  <strong>Name:</strong>
+			  <%= @tree.name %>
+			</p>
+
+			<p>
+			  <strong>Coordinates:</strong>
+			  <%= @tree.coordinates %>
+			</p>
+
+			<%= link_to 'Edit', edit_tree_path(@tree) %> |
+			<%= link_to 'Back', trees_path %>
+
+		</div>
+	</div>
+</div>

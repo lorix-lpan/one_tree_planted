@@ -14,10 +14,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-			  <li role="presentation"><a href='#'>Home</a></li>
-			  <li role="presentation"><a href="#">About</a></li>
-			  <li role="presentation"><a href="#">Stats</a></li>
-			  <li role="presentation"><a href="#">Picture</a></li>
+			  <li role="presentation"><a href='/'>Home</a></li>
+			  <li role="presentation"><a href="/about">About</a></li>
+			  <li role="presentation"><a href="/stats">Stats</a></li>
+			  <li role="presentation"><a href="/pictures">Pictures</a></li>
 			</ul>
 			<%= form_for(:user, :url => session_path(:user), html: {class: 'navbar-form navbar-right'}) do |f| %>
 		    <div class="container-fluid form-group">

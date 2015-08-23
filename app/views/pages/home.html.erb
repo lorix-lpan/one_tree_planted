@@ -3,11 +3,16 @@
 		<div class="col-md-12">
 			<img class="img-responsive" src="/assets/tree.png" style="position: absolute; right: 0px;"/>
 			<h1 class="LOL">Plant A Tree</h1>
-<div class="container">
-        <a href="#" class="myButton">PLANT</a>
-       
-			<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
-     </div>
+      <div class="container">
+      	<% if user_signed_in? %>
+      		<%= link_to "Plant", new_tree_path, class: 'myButton' %>
+				<% else %>
+      		<%= link_to "Plant", new_user_session_path, class: 'myButton' %>
+      	<% end %>
+        <p>
+			    <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+        </p>
+      </div>
 		</div>
 	</div>
 </div>

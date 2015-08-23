@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :trees
+  resources :trees
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   root 'pages#home'
 
   get 'about' => 'pages#about'
-  get 'test' => 'trees#index'
-
+  get 'stats' => 'pages#stats'
+  get 'pictures' => 'pages#pictures'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
