@@ -188,3 +188,37 @@ img {
     -moz-transition: -moz-transform 0.2s;
     -o-transition: -o-transform 0.2s;
 }
+
+/* Stat page */
+.table>thead>tr>th {
+    border: 0px solid #ddd
+}
+.table>tbody>tr>td {
+    border: 0px solid #ddd
+}
+.table>tbody>tr>th {
+    border: 0px solid #ddd
+}
+.table-proprety {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    width: 40%;
+}
+.panel-body {
+    padding: 0 0 0 10;
+}
+.panel-heading {
+    font-size: 2em;
+    padding: 0;
+}
+
+.behind {
+    z-index: -1;
+    position:fixed;
+    left: 10px;
+    width:40%;
+}
+/* stats page END */
