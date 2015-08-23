@@ -1,0 +1,25 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2>My trees</h2>
+			<table class="table">
+			  <thead>
+				  <tr>
+				  	<th>Name</th>
+				  	<th>Coordinates</th>
+				  	<th>Planted on</th>
+				  </tr>
+			  </thead>
+			  <tbody>
+			  	<% @user.trees.all.each do |tree| %>
+			  	<tr>
+			  		<td><%= tree.name %></td>
+			  		<td><%= tree.xpos %></td>
+			  		<td><%= tree.created_at %></td>
+			  	</tr>
+			  	<% end %>
+			  </tbody>
+			</table>
+		</div>
+	</div>
+</div>

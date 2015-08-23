@@ -1,0 +1,13 @@
+class CreateTrees < ActiveRecord::Migration
+  def change
+    create_table :trees do |t|
+    	t.string :name
+    	t.integer :xpos
+    	t.integer :ypos
+    	t.integer :zpos
+
+    	t.belongs_to :user, index: true
+      t.timestamps null: false
+    end
+  end
+end
