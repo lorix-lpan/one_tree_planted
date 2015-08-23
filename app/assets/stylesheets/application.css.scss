@@ -147,3 +147,14 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
   background: rgba(0, 0, 0, 0.8);
 }
+
+.whiteborder {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+.smaller-image {
+    width: 200px;
+    height: 200px;
+  }
